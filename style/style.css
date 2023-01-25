@@ -1,0 +1,237 @@
+h1{
+   font-family: IM FELL French Canon SC;
+}
+
+div{
+    font-family: inder;
+ }
+ 
+
+
+.cover-img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover-txt {
+    font-size: 36px;
+    color: white;
+    margin-top: -30px;
+}
+
+.cover-head {
+    font-size: 64px;
+    color: white;
+    margin-top: 30px;
+}
+
+.green {
+    background-color: #DEF7CB;
+}
+
+.green-second {
+    background-color: #d2e9c1;
+}
+
+
+.article {
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+
+.article-img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.article-inside {
+    padding: 50px;
+    font-family: Indie Flower;
+}
+
+.article-inside button{
+    font-size: 20px;
+}
+
+.article-inside h1 {
+    font-size: 48px;
+}
+
+.article-inside div {
+    padding-top: 20px;
+   
+    
+}
+
+/* .btn {
+    background: #59f554;
+    background-image: -webkit-linear-gradient(top, #59f554, #2ec725);
+    background-image: -moz-linear-gradient(top, #59f554, #2ec725);
+    background-image: -ms-linear-gradient(top, #59f554, #2ec725);
+    background-image: -o-linear-gradient(top, #59f554, #2ec725);
+    background-image: linear-gradient(to bottom, #59f554, #2ec725);
+    -webkit-border-radius: 31;
+    -moz-border-radius: 31;
+    border-radius: 31px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+} */
+
+
+
+
+.btn:hover {
+    background: #5BF558;
+    background-image: -webkit-linear-gradient(top, #5BF558, #32f028);
+    background-image: -moz-linear-gradient(top, #5BF558, #32f028);
+    background-image: -ms-linear-gradient(top, #5BF558, #32f028);
+    background-image: -o-linear-gradient(top, #5BF558, #32f028);
+    background-image: linear-gradient(to bottom, #5BF558, #32f028);
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 50px;
+}
+
+.card-img-top {
+    border-radius: 50px;
+}
+
+footer {
+    padding-top: 5px;
+}
+
+.background-img {
+    display: block;
+    height: 1000px;
+    max-width: 700px;
+    object-fit: none;
+    object-position: left;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.side-img {
+    background-image: url("../img/detailed-jungle-background.jpg");
+}
+
+.contact-background {
+    background-color: #DEF7CB;
+    height: 1000px;
+}
+
+.kontakt {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form-css {
+    font-size: 32px;
+}
+
+.form-box {
+    padding: 30px;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-wrapper {
+    padding: 40px;
+}
+
+.proizvod-img {}
+
+.proizvod {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin: 0, auto;
+    border-radius: 50px;
+}
+
+.similar-p {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.high {
+    height: 600px;
+}
+
+.pad{
+    padding: 10px 50px;
+}
+
+.proizvod-gumb {
+    font-size: 20px;
+    background-color: #5BF558;
+    border-color: none;
+    border-radius: 30px;
+    color: black;
+}
+
+
+.card{
+    background-color: rgb(240, 239, 239);
+}
+
+.low {
+    height: 750px;
+}
+
+@media (max-width: 768px) {
+
+    .high {
+        height: 800px;
+    }
+
+    .low {
+        height: 1700px;
+    }
+    .cover-txt {
+        margin-top: -80px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .high {
+        height: 1000px;
+    }
+
+    .low {
+        height: 1700px;
+    }
+
+    .cover-txt {
+        margin-top: -80px;
+    }
+
+
+    
+}

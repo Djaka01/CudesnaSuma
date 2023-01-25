@@ -1,0 +1,33 @@
+.nav-img{
+    size: 100%;
+}
+
+.logo{
+    border-radius: 4rem;
+    height: 6rem;
+}
+
+.navbar-green{
+    background-color: #98D964;
+    padding: 10px;
+}
+
+.navigation{
+    align-items: center;
+}
+
+.nav-item{
+    padding: -20px 0;
+    padding-right: 4rem;
+    font-size: 24px;
+}
+
+.nav-link{
+    padding: 1.75rem;
+}
+
+.cart{
+    width: 3rem;
+    margin-right: -2rem;
+    align-self: center;
+}
